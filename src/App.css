@@ -1,3 +1,8 @@
+html, body, #root, #root>div {
+  height: 100%;
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.site-layout-content {
+  min-height: 100%;
+  padding: 95px 24px 24px;
+  background: #fff;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.margin-25 {
+  margin: 25px;
+}
+
+.height-100-p {
+  height: 100%;
 }
